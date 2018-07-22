@@ -1,4 +1,4 @@
-update=7/20/2018 4:57:14 PM
+update=7/21/2018 10:09:02 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,4 +61,5 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=C:/src/Temp/Git/KiCadCustomLibs/KiCadCustomLibraries
+LibName33=C:/src/Tennp/Git/KiCadCustomLibs/KiCadCustomLibraries
+LibName34=sensors
