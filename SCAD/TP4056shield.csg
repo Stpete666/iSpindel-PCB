@@ -115,7 +115,9 @@ multmatrix([[1, 0, 0, -11.1], [0, 1, 0, 4], [0, 0, 1, 0.6], [0, 0, 0, 1]]) {
 multmatrix([[1, 0, 0, -10], [0, 1, 0, -1], [0, 0, 1, 0.71], [0, 0, 0, 1]]) {
 	multmatrix([[-1, -1.22461e-016, 0, 0], [1.22461e-016, -1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]) {
 		color([1, 1, 1, 1]) {
-			text(text = "B+", size = 1.5, spacing = 1, font = "Liberation Sans", direction = "ltr", language = "en", script = "Latn", halign = "left", valign = "baseline", $fn = 30, $fa = 12, $fs = 2);
+			linear_extrude(height = 0.52, center = false, convexity = 1, scale = [1, 1], $fn = 15, $fa = 12, $fs = 2) {
+				text(text = "B+", size = 1.5, spacing = 1, font = "Liberation Sans", direction = "ltr", language = "en", script = "Latn", halign = "left", valign = "baseline", $fn = 30, $fa = 12, $fs = 2);
+			}
 		}
 	}
 }
@@ -154,4 +156,3 @@ multmatrix([[1, 0, 0, 9.5], [0, 1, 0, 7.8], [0, 0, 1, 0.71], [0, 0, 0, 1]]) {
 		}
 	}
 }
-

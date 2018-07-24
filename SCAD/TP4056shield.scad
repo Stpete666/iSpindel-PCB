@@ -16,14 +16,14 @@ translate([11.5,-7,0.6])pin();
 translate([-11.1,-7,0.6])pin();
 translate([-11.1,-4,0.6])pin();
 translate([-11.1,4,0.6])pin();
-translate([-10,-1,0.71])rotate([0,0,180])color("white")text("B+", font = "Liberation Sans", size=1.5,$fn=30);
-translate([-10,2.5,0.71])rotate([0,0,180])color("white")text("B-", font = "Liberation Sans", size=1.5,$fn=30);
+translate([-10,-1,0.71])rotate([0,0,180])color("white")linear_extrude(height = 0.52)text("B+", font = "Liberation Sans", size=1.5,$fn=30);
+translate([-10,2.5,0.71])rotate([0,0,180])color("white")linear_extrude(height = 0.52)text("B-", font = "Liberation Sans", size=1.5,$fn=30);
 
-translate([-4,-6.5,0.71])rotate([0,0,180])color("white")text("OUT+", font = "Liberation Sans", size=1.5,$fn=30);
-translate([-4,7.8,0.71])rotate([0,0,180])color("white")text("OUT-", font = "Liberation Sans", size=1.5,$fn=30);
+translate([-4,-6.5,0.71])rotate([0,0,180])color("white")linear_extrude(height = 0.52)text("OUT+", font = "Liberation Sans", size=1.5,$fn=30);
+translate([-4,7.8,0.71])rotate([0,0,180])color("white")linear_extrude(height = 0.52)text("OUT-", font = "Liberation Sans", size=1.5,$fn=30);
 
-translate([9.5,-6.5,0.71])rotate([0,0,180])color("white")text("+", font = "Liberation Sans", size=1.5,$fn=30);
-translate([9.5,7.8,0.71])rotate([0,0,180])color("white")text("-", font = "Liberation Sans", size=1.5,$fn=30);
+translate([9.5,-6.5,0.71])rotate([0,0,180])color("white")linear_extrude(height = 0.52)text("+", font = "Liberation Sans", size=1.5,$fn=30);
+translate([9.5,7.8,0.71])rotate([0,0,180])color("white")linear_extrude(height = 0.52)text("-", font = "Liberation Sans", size=1.5,$fn=30);
 
 module pin(){
   color("lightgray")difference(){
