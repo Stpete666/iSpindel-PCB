@@ -137,7 +137,7 @@ U 1 1 5B52FEF3
 P 6850 3000
 F 0 "R2" V 6930 3000 50  0000 C CNN
 F 1 "4.7k" V 6850 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6780 3000 50  0001 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6780 3000 50  0001 C CNN
 F 3 "" H 6850 3000 50  0001 C CNN
 	1    6850 3000
 	1    0    0    -1  
@@ -148,13 +148,11 @@ U 1 1 5B530487
 P 6000 3850
 F 0 "R1" V 6080 3850 50  0000 C CNN
 F 1 "220K" V 6000 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5930 3850 50  0001 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 5930 3850 50  0001 C CNN
 F 3 "" H 6000 3850 50  0001 C CNN
 	1    6000 3850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5850 3450 5850 3850
 $Comp
 L +5V #PWR11
 U 1 1 5B530550
@@ -261,7 +259,7 @@ U 1 1 5B533FAC
 P 6250 3350
 F 0 "D1" H 6250 3450 50  0000 C CNN
 F 1 "Schottky" H 6200 3250 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6250 3350 50  0001 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 6250 3350 50  0001 C CNN
 F 3 "" H 6250 3350 50  0001 C CNN
 	1    6250 3350
 	1    0    0    -1  
@@ -366,8 +364,6 @@ Wire Wire Line
 Text Label 6100 2950 2    60   ~ 0
 NSS
 Wire Wire Line
-	6150 3800 6150 3850
-Wire Wire Line
 	2750 4450 2550 4450
 Text Label 2550 4450 0    60   ~ 0
 RES
@@ -439,4 +435,8 @@ F 3 "" H 7150 4700 50  0001 C CNN
 	1    7150 4700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 3800 6150 3850
+Wire Wire Line
+	5850 3450 5850 3850
 $EndSCHEMATC
